@@ -1,0 +1,27 @@
+{
+    "name": "benlumia007/backdrop-proxies",
+    "description": "Backdrop Contracts for Backdrop framework.",
+    "keywords": [ "classicpress", "wordpress" ],
+    "homepage": "https://github.com/benlumia007/backdrop-proxies",
+    "license": "GPL-2.0-or-later",
+    "authors": [
+        {
+            "name": "Benjamin Lu",
+            "email": "benlumia007@gmail.com",
+            "homepage": "https://benjlu.com",
+            "role": "Developer"
+        }
+    ],
+	"support"     : {
+		"issues" : "https://github.com/benlumia007/backdrop-proxies/issues"
+	},
+    "autoload": {
+        "psr-4": {
+            "Benlumia007\\Backdrop\\Proxies\\": "src"
+        }
+    },
+    "require": {
+        "php": ">=7.4.3",
+        "benlumia007/backdrop-contracts": "v1.0.0.x-dev"
+    }
+}
