@@ -9,7 +9,7 @@
  */
 
 namespace Benlumia007\Backdrop\Proxies;
-use Benlumia007\Backdrop\Contracts\Container\Container;
+use Benlumia007\Backdrop\Container\Contracts\Container;
 
 /**
  * Base static proxy class.
