@@ -21,7 +21,6 @@
         }
     },
     "require": {
-        "php": ">=7.4.3",
-        "benlumia007/backdrop-container": "v1.0.0.x-dev"
+        "php": ">=7.4.29"
     }
 }
