@@ -4,7 +4,8 @@
  *
  * @package   Backdrop
  * @author    Benjamin Lu <benlumia007@gmail.com>
- * @copyright Copyright (C) 2019-2021. Benjamin Lu
+ * @copyright 2019-2022. Benjamin Lu
+ * @link      https://github.com/benlumia007/backdrop-proxies
  * @license   https://www.gnu.org/licenses/gpl-2.0.html
  */
 
@@ -13,7 +14,7 @@ namespace Benlumia007\Backdrop\Proxies;
 /**
  * App static proxy class.
  *
- * @since  3.0.0
+ * @since  1.0.0
  * @access public
  */
 class App extends Proxy {
@@ -21,7 +22,7 @@ class App extends Proxy {
 	/**
 	 * Returns the name of the accessor for object registered in the container.
 	 *
-	 * @since  3.0.0
+	 * @since  1.0.0
 	 * @access protected
 	 * @return string
 	 */

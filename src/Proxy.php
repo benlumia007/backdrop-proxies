@@ -4,7 +4,8 @@
  *
  * @package   Backdrop
  * @author    Benjamin Lu <benlumia007@gmail.com>
- * @copyright Copyright (C) 2019-2021. Benjamin Lu
+ * @copyright 2019-2022. Benjamin Lu
+ * @link      https://github.com/benlumia007/backdrop-proxies
  * @license   https://www.gnu.org/licenses/gpl-2.0.html
  */
 
@@ -14,7 +15,7 @@ use Benlumia007\Backdrop\Container\Contracts\Container;
 /**
  * Base static proxy class.
  *
- * @since  3.0.0
+ * @since  1.0.0
  * @access public
  */
 class Proxy {
@@ -22,7 +23,7 @@ class Proxy {
 	/**
 	 * The container object.
 	 *
-	 * @since  3.0.0
+	 * @since  1.0.0
 	 * @access protected
 	 * @var    Container
 	 */
@@ -31,7 +32,7 @@ class Proxy {
 	/**
 	 * Returns the name of the accessor for object registered in the container.
 	 *
-	 * @since  3.0.0
+	 * @since  1.0.0
 	 * @access protected
 	 * @return string
 	 */
@@ -43,7 +44,7 @@ class Proxy {
 	/**
 	 * Sets the container object.
 	 *
-	 * @since  3.0.0
+	 * @since  1.0.0
 	 * @access public
 	 * @return void
 	 */
@@ -55,7 +56,7 @@ class Proxy {
 	/**
 	 * Returns the instance from the container.
 	 *
-	 * @since  3.0.0
+	 * @since  1.0.0
 	 * @access protected
 	 * @return object
 	 */
@@ -68,7 +69,7 @@ class Proxy {
 	 * Calls the requested method from the object registered with the
 	 * container statically.
 	 *
-	 * @since  3.0.0
+	 * @since  1.0.0
 	 * @access public
 	 * @param  string  $method
 	 * @param  array   $args
