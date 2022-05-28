@@ -1,5 +1,5 @@
 # Backdrop\Proxies
-Backdrop Proxies is a stic class for the application instance
+Backdrop Proxies is a static class for the application instance
 
 ## Requirements
 * ClassicPress 1.0.0 or higher
